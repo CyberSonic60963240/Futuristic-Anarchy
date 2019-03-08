@@ -1,46 +1,94 @@
-body {
-	width: 60vw;
-	height: 100vh;
-	margin: 0 20vw 0 20vw;
-	display: block;
-}
-/* Use this class on the PARENT of whatever you are trying to center; remember that the PARENT tells the CHILD what to do! */
-/* NOTE: Centering content only works when the display property is "flex"! */
-.center-content {
+.lid {
 	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-/* Use this class on your image to restrict the size so it stays completely within it's parent div */
-.restrict-img-size {
-	max-height: 99%;
-	max-width: 99%;
-}
-
-.col {
-	height: 100%;
-	width: calc(100%/3);
-}
-
-.row {
-	height: 50%;
+	height: calc(100%/6);
 	width: 100%;
+	background-color: #ff9900;
+}
+
+.column {
+	display: block;
+	height: 100%;
+	width: 25%;
+}
+
+.puzzle {
 	display: flex;
+	height: calc(200%/3);
+	width: 100%;
+	background-color: #00cc00;
 }
 
-.opaque {
-	opacity: 0.25;
+.pp {
+	display: flex;
+	height: 25%;
+	width: 100%;
 }
 
-.no-cursor:hover {
-	cursor: default;
+.image {
+	height: 100%;
+	width: 100%;
 }
 
-.button:active {
-	transform: scale(0.95, 0.95);
+.a {
+	background-color: #010300;
 }
 
-.gray {
-	background-color: #E8DEDF;
+.b {
+	background-color: #5f0300;
+}
+
+.c {
+	background-color: #5f5400;
+}
+
+.d {
+	background-color: #5f549c;
+}
+
+.e {
+	background-color: #2b549c;
+}
+
+.f {
+	background-color: #000461;
+}
+
+.g {
+	background-color: #2be99c;
+}
+
+.h {
+	background-color: #fee99c;
+}
+
+.i {
+	background-color: #fe5209;
+}
+
+.j {
+	background-color: #7b08b7;
+}
+
+.k {
+	background-color: #fe71b7;
+}
+
+.l {
+	background-color: #b7fe03;
+}
+
+.m {
+	background-color: #5afcf4;
+}
+
+.n {
+	background-color: #f7914b;
+}
+
+.o {
+	background-color: #5d4a4b;
+}
+
+.p {
+	background-color: #fefefd;
 }
