@@ -142,6 +142,8 @@ function nextImage16(el){
 		el.src = "P2.png";
 	} else {}}
 
+// These nextImage
+
 function nextImage17(el){
 	var num = Math.floor(Math.random() * 4);
 	if (el.src.match("ChamberBottom1.png") && num >= 2){
