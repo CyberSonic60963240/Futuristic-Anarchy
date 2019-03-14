@@ -142,7 +142,7 @@ function nextImage16(el){
 		el.src = "P2.png";
 	} else {}}
 
-// These nextImage
+// These nextImagex functions allow each "pp" div to switch between their own unique sets of three images when clicked, in a "if x then y, if y then z, if z then x" format.
 
 function nextImage17(el){
 	var num = Math.floor(Math.random() * 4);
@@ -180,3 +180,4 @@ function changeScreen(el){
 	} else{
 	document.getElementById('really').play();
 	}}
+// The way this code allows a div to change the browser's current screen BUT ONLY IF every "pp" div is set to x1; otherwise, it will play a (rather comically condescending) sound effect, then do nothing.
