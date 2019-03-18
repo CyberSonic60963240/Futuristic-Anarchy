@@ -141,7 +141,7 @@ function nextImage16(el){
 	} else if (el.src.match("P1.png")){
 		el.src = "P2.png";
 	} else {}}
-
+// I learned how to comment in CSS from http://www.tizag.com/javascriptT/javascriptcomment.php
 // These nextImagex functions allow each "pp" div to switch between their own unique sets of three images when clicked, in a "if x then y, if y then z, if z then x" format.
 
 function nextImage17(el){
