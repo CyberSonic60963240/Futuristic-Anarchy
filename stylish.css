@@ -26,6 +26,7 @@ body {
 	height: 100%;
 	width: 100%;
 }
+/* I learned how to comment in CSS from https://www.xanthir.com/b4U10 */
 /* The .stretch_image_size code contains lines of code that ensure the height and width of the images not only encompass the divs they're in in their entirety, but also stay the same when they are changed by the Javascript, when they are called in the images in the HTML file. */
 
 .side_right {
