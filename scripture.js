@@ -156,7 +156,7 @@ function nextImage17(el){
 		document.getElementById('no').play();
 		el.src = "ChamberBottom1.png";
 	} else {}}
-
+// This random number generator generates a number between 0 and 4. If that number is less than or equal to 3, it plays one sound effect, and if it is greater than or equal to 2, a different sound effect will play (both of these are assuming the player clicks the button for help, and not clicks the button to hide the hint; otherwise, only one, different sound effect will play).
 function changeScreen(el){
 	var a = document.getElementById("a");
 	var b = document.getElementById("b");
